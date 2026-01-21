@@ -4,12 +4,10 @@ for i in range(1 , 11):
 
 
 
-
 for i in range(1, 20 , 3):
     print(i)
 
 print("This will print numbers fro  1 to 19 with the difference of 2")
-
 
 
 
@@ -24,7 +22,6 @@ for i in l:
 
 
 
-
 print("for loops in tuple")
 
 t = ("apple" , 5 , "Banana", 6)
@@ -35,14 +32,12 @@ for i in t:
 
 
 
-
 print("for loops in String")
 
 s = "Gargee"
 
 for i in s:
     print(i)
-
 
 
 
@@ -59,7 +54,6 @@ for i in range(1,11):
     if(i==5):
         continue
     print(i)
-
 
 
 
