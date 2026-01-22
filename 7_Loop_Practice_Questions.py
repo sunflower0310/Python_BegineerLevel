@@ -73,10 +73,10 @@ for i in range(1,n):
 
 
 
-print("7. Write a program to print the following star pattern.")
-#   *
-#  ***
-# ***** for n = 3
+print("7. Write a program to print the following star pattern ignore comma.")
+"   * "
+"  *** "
+" ***** for n = 3 "
 
 n = int(input("Enter n:"))
 for i in range(1,n+1):
@@ -89,10 +89,10 @@ for i in range(1,n+1):
 
 
 
-print("8. Write a program to print the following star pattern")
-# *
-# **
-# *** for n = 3
+print("8. Write a program to print the following star pattern ignore comma")
+"* "
+"** "
+"*** for n = 3"
 
 n = int(input("Enter n :"))
 for i in range(1,n+1):
@@ -103,10 +103,10 @@ for i in range(1,n+1):
 
 
 
-print("9. Write a program to print the following star pattern")
-# * * *
-# *   *    for n = 3
-# * * *
+print("9. Write a program to print the following star pattern ignore comma.")
+" * * * "
+" *   *    for n = 3 "
+" * * * "
 
 n = int(input("Enter n :"))
 
