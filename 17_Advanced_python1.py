@@ -77,7 +77,7 @@ with (open ("file1.txt") as f1 ,
 
 
 # Exception Handling
-"""
+
 try:
     a = int(input("Enter value of a :"))
     b = int(input("Enter value of b :"))
@@ -92,12 +92,12 @@ except ValueError as v :
 
 print("Program finished")
 
-"""
+
 
 
 
 # Raising Exception 
-"""
+
 a = int(input("Enter value of a :"))
 b = int(input("Enter value of b :"))
 
@@ -106,12 +106,11 @@ if(b==0):
 else:
     print(f"Result: {a/b}")
 
-"""
 
 
 
-# Try else
-"""
+
+# Try el
 try :
     a = int(input("Enter your number:"))
 
@@ -119,13 +118,11 @@ except Exception as e :
     print(e)
 
 else:
-    print("I am inside else")
-"""
+    print("I am inside els")
 
 
 
-# Try finally
-"""
+# Try final
 def main():
     try:
         n = int(input("Enter your name:"))
@@ -140,7 +137,7 @@ def main():
 
 main()
 
-"""
+
 
 
 # __name__ == "__main__"
@@ -195,9 +192,3 @@ Mylist = [ 2 , 3 , 4 , 5]
 
 squared_list = [i*i for i in Mylist]
 print(squared_list)
-
-
-
-
-
-
